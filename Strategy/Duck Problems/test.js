@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MallardDuck_1 = require("./Duck/MallardDuck");
+var RubberDuck_1 = require("./Duck/RubberDuck");
+var mallardDuck = new MallardDuck_1.MallardDuck();
+mallardDuck.displayName();
+mallardDuck.swim();
+mallardDuck.performFly();
+mallardDuck.performQuack();
+console.log();
+var rubberDuck = new RubberDuck_1.RubberDuck();
+rubberDuck.displayName();
+rubberDuck.swim();
+rubberDuck.performFly();
+rubberDuck.performQuack();
