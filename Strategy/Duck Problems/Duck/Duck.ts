@@ -26,5 +26,4 @@ export abstract class Duck <FlyBehavior extends IFlyBehavior, QuackBehavior exte
     performQuack():void{
         this.quackBehavior.quack();
     }
-
 }
